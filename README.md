@@ -4,7 +4,7 @@ A Windows Kernel Driver template for mounting a custom registry hive at boot.
 
 ## Overview
 
-This driver demonstrates how to load an arbitrary `.hiv` file into the registry
+This driver demonstrates how to load an arbitrary `.hiv, .dat or no extension` file into the registry
 at `HKLM\<YourKey>` during the boot phase, before user-mode components start.
 It is intended as a starting point — swap in your own hive path, mount point,
 and any post-load logic you need.
